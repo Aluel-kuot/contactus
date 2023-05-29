@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contactus{
+display: flex;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 550px;
+position: absolute;
+color: #f0c9be;
+font-size: large;
+font-family: 'Times New Roman', Times, serif;
+animation: animate 15s ease-in-out infinite;
+left: 0;
+top: 18;
+
+}
+@keyframes animate{
+    0%,100%{
+background-image: linear-gradient(rgba(0,0,0,0.7),#3F2A2B),url("/images/fashion.png");
+}
+10%{
+background-image:linear-gradient(rgba(0,0,0,0.7),#3F2A2B),  url("/images/suits.png") ;
+}
+20%{
+background-image: linear-gradient(rgba(0,0,0,0.7),#3F2A2B),url("/images/sneakers.png" );
+}
+30%{
+background-image: linear-gradient(rgba(0,0,0,0.7),#3F2A2B),url("/images/image4.png") ;
+}
+40%{
+    background-image: linear-gradient(rgba(0,0,0,0.7),#3F2A2B),url("/images/heels.png") ;
+}
+    
+ 50%{
+    background-image: linear-gradient(rgba(0,0,0,0.7),#3F2A2B),url("/images/image1.png");
+    }
+60%{
+    background-image:linear-gradient(rgba(0,0,0,0.7),#3F2A2B),  url("/images/man.png") ;
+     }
+70%{
+    background-image: linear-gradient(rgba(0,0,0,0.7),#3F2A2B),url("/images/image2.png" );
+    }
+80%{
+    background-image: linear-gradient(rgba(0,0,0,0.7),#3F2A2B),url("/images/shoes.png") ;
+    }
+90%{
+     background-image: linear-gradient(rgba(0,0,0,0.7),#3F2A2B),url("/images/suit.png") ;
+    }
+100%{
+     background-image: linear-gradient(rgba(0,0,0,0.7),#3F2A2B),url("/images/image3.png") ;
+}
+
+}
+        
+
+
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    color: beige;
+    border: none;
+    outline: none;
+
+}
+input:focus label
+.address{
+    margin-left: 10%;
+    margin-top: 30px;
+    
+   
+}
+.location{
+    padding: 15px;
+}
+.contact{
+    margin-left: 30%;
+    margin-top:35px;
+}
+.we{
+    color: #925938;
+}
+.we:hover{
+    color: beige;
+}
+.details{
+    padding: 40px;
+    margin-top:5%;
+}
+#cont{
+    text-align: center;
+    position: relative;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: colorAppear;
+  animation-duration: 3s;
+}
+@keyframes move {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 300px;
+    }
+  }
+  @keyframes colorAppear {
+    0% {
+      color: beige;
+    }
+    25% {
+      color:#945f61;
+    }
+    50% {
+    color: #995c39;
+    }
+    75% {
+      color: rgb(10, 9, 6);
+    }
+    100% {
+      color: rgb(160, 153, 160);
+    }
+  }
+.detail{
+    border:solid 1px beige;
+    border-radius: 10px 20px;
+    color:beige;
+    padding:10px ;
+    background: transparent;
+}
+
+.message{
+    border:solid 1px beige ;
+    border-radius: 10px 40px;
+    color: beige;
+    padding:30px 80px ;
+    background:transparent;
+}
+label{
+   height: 100%; 
+   left: 0;
+   top:0 ;
+   padding: 10px;
+   cursor: text;
+}
+
+.send{
+    border: solid 1px #ffe8cc;
+    border-radius: 10px;
+    padding:10px 30px;
+    margin-top: 5%;
+    margin-left: 20%;
+    color:#99516b;
+    font-size:medium;
+    background: transparent;
+    cursor: pointer;
+}
+.send:hover{
+color: #FE828C;
+}
+.logos{
+margin-top: 5%;
+}
+.logo{
+
+    padding:15px;
+    width: 25px;
+    height: 25px;
+    color:beige;
+    border:solid 1px bisque;
+    border-radius: 10px 20px;
+}
+.logo:hover{
+    color: #97694F;
+}
+
+.connect{
+    margin-top: 5%;
+}
+.locate{
+padding-top: 30px;
+
+}
+.location{
+    margin-top: 5%;
+    display: grid;
+}
+.log{
+   height: 30px; 
+   width: 10%;
+   color:beige;
+}
+.log:hover{
+    color:#FE828C;
+}
+.heart{
+    color: red;
+}
+.heart:hover{
+    color: #1864ab;
+}
